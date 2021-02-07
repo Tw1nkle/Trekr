@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		433C762225D06C3100D215E7 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 433C762025D06C3100D215E7 /* locations.json */; };
+		433C762325D06C3100D215E7 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 433C762125D06C3100D215E7 /* tips.json */; };
 		4360478525D053A000ED5367 /* TrekrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4360478425D053A000ED5367 /* TrekrApp.swift */; };
 		4360478725D053A000ED5367 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4360478625D053A000ED5367 /* ContentView.swift */; };
 		4360478925D053A100ED5367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4360478825D053A100ED5367 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		433C762025D06C3100D215E7 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		433C762125D06C3100D215E7 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		4360478125D053A000ED5367 /* Trekr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trekr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4360478425D053A000ED5367 /* TrekrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekrApp.swift; sourceTree = "<group>"; };
 		4360478625D053A000ED5367 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 				4360478625D053A000ED5367 /* ContentView.swift */,
 				4360478825D053A100ED5367 /* Assets.xcassets */,
 				4360478D25D053A100ED5367 /* Info.plist */,
+				433C762025D06C3100D215E7 /* locations.json */,
+				433C762125D06C3100D215E7 /* tips.json */,
 				4360478A25D053A100ED5367 /* Preview Content */,
 			);
 			path = Trekr;
@@ -127,6 +133,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4360478C25D053A100ED5367 /* Preview Assets.xcassets in Resources */,
+				433C762325D06C3100D215E7 /* tips.json in Resources */,
+				433C762225D06C3100D215E7 /* locations.json in Resources */,
 				4360478925D053A100ED5367 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
